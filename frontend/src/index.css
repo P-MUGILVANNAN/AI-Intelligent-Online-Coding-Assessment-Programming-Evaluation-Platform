@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbars themed with #2F2D7D */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0b24;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a276b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #423fa5;
+}
